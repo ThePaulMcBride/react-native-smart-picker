@@ -1,6 +1,7 @@
 import React, { PropTypes, Component } from 'react'
 import { Text, View, Image, TouchableWithoutFeedback, Animated, Picker, Platform, StyleSheet } from 'react-native'
 import ToggleBox from 'react-native-togglebox'
+import styles from './styles.js'
 
 class TogglePicker extends Component {
   renderPicker = () => (
