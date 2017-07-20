@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "name": "react-native-smart-picker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thepaulmcbride/react-native-smart-picker"
+  },
+  "license": "MIT",
+  "author": "Paul McBride <hello@paulmcbride.net> (https://paulmcbride.net)",
+  "main": "./src/index.js",
+  "description": "React Native Smart Picker is easy wrapper for React Native Picker. Allows toggling the picker open and closed on iOS and native behaviour on Android",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "toggle",
+    "picker",
+    "select"
+  ],
+  "dependencies": {
+    "react-native-togglebox": "1.0.2"
+  }
+}
