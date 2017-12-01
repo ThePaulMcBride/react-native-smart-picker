@@ -56,7 +56,7 @@ TogglePicker.propTypes = {
   iosPickerWrapperStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
   onValueChange: PropTypes.func.isRequired,
   selectedValue: PropTypes.any.isRequired,
-  label: PropTypes.string.isRequired,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 }
 
