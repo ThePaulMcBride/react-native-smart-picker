@@ -19,6 +19,6 @@
     "select"
   ],
   "dependencies": {
-    "react-native-togglebox": "1.0.2"
+    "react-native-togglebox": "1.0.3"
   }
 }

@@ -77,9 +77,9 @@ prop-types@^15.5.10, prop-types@^15.5.4:
     fbjs "^0.8.9"
     loose-envify "^1.3.1"
 
-react-native-togglebox@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-native-togglebox/-/react-native-togglebox-1.0.2.tgz#fb23d3de47be4bdf84132b2923a81130948bb9ab"
+react-native-togglebox@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-togglebox/-/react-native-togglebox-1.0.3.tgz#df8e9370fa360361cf2f84e70a9bfa8a719b4e73"
   dependencies:
     prop-types "^15.5.10"
     react-style-proptype "^3.0.0"
