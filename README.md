@@ -28,13 +28,24 @@ import SmartPicker from 'react-native-smart-picker'
 
 ...
 
+ this.state = {
+            selected: "A",
+           
+        };
+
+ handleChange(value: string) {
+        this.setState({
+            selected: value
+        });
+    }
+
 <ScrollView style={styles.container}>
   <View style={{flex: 1, marginTop: 20}}>
     <ScrollView style={styles.container}>
       <SmartPicker
-        selectedValue='CZ'
+        selectedValue={this.state.selected}
         label='Set you favorite country'
-        onValueChange={() => {this.handleChange}}
+        onValueChange={this.handleChange.bind(this)}
       >
         <Picker.Item label='Austria' value='A' />
         <Picker.Item label='Czechia' value='CZ' />
