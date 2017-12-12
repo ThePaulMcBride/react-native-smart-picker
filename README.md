@@ -39,7 +39,7 @@ import SmartPicker from 'react-native-smart-picker'
         });
     }
 
-<ScrollView style={styles.container}>
+<ScrollView style={"Your custom styles here"}>
   <View style={{flex: 1, marginTop: 20}}>
     <ScrollView style={styles.container}>
       <SmartPicker
