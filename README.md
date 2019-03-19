@@ -63,6 +63,7 @@ import SmartPicker from 'react-native-smart-picker'
 |Prop name | Default prop | Required | Note
 | --- | --- | --- | --- |
 | `androidBoxStyle` | `{}` | - | Custom styles |
+| `androidPickerTitle` | `true` | No | Enable or disable title in android picker box
 | `androidPickerStyle` | `{}` | - | Custom styles |
 | `androidPickerWrapperStyle` | `{}` | - | Custom styles |
 | `androidBoxStyle` | `{}` | - | Custom styles |
