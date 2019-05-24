@@ -25,9 +25,12 @@ class TogglePicker extends Component {
 
   renderAndroid = () => (
     <View style={[styles.androidBoxStyle, this.props.androidBoxStyle]}>
-      <Text>
-        {this.props.label}
-      </Text>
+      {
+        this.props.androidPickerTitle &&
+        <Text>
+          {this.props.label}
+        </Text>
+      }
       <View style={StyleSheet.flatten([styles.androidPickerWrapper, this.props.androidPickerWrapper])}>
         {this.renderPicker()}
       </View>
@@ -44,6 +47,7 @@ class TogglePicker extends Component {
 
 TogglePicker.propTypes = {
   androidBoxStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
+  androidPickerTitle: PropTypes.bool,
   androidPickerStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
   androidPickerWrapperStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
   arrowColor: PropTypes.string,
@@ -65,6 +69,7 @@ TogglePicker.defaultProps = {
   androidBoxStyle: {},
   androidPickerStyle: {},
   androidPickerWrapperStyle: {},
+  androidPickerTitle: true,
   androidBoxStyle: {},
   arrowColor: 'rgb(178, 178, 178)',
   arrowDownType: 'keyboard-arrow-down',
